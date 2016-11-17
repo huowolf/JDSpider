@@ -26,7 +26,7 @@ public class UrlUtil {
 			int sIndex = 31;// 对应url请求参数中的s
 	
 			// 抓取代表销量较高的20页数据，也就是总共600条数据
-			for (int i = 1; i <= 20; i++) {
+			for (int i = 1; i <= 10; i++) {
 				if (i % 2 != 0) {
 					String url = urlList1.replace("手机", keyword).replace("page=1", "page=" + Integer.toString(i));
 					urlList.add(url);

@@ -10,6 +10,7 @@ public class JDSpider {
 	
 	public static void main(String[] args) {
 		
+		//UrlUtil.setKeyword("手机");
 		UrlUtil.setKeyword("零食");
 		List<String> urls = UrlUtil.BuildListUrl(); //设置要抓取的关键词
 		
